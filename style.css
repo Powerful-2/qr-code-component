@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Card */
+.card {
+  background: hsl(0, 0%, 100%); /* White */
+  padding: 16px;
+  border-radius: 16px;
+  max-width: 320px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* QR Image */
+.qr-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+/* Title */
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: black;  /* Changed from Slate 900 */
+  margin-bottom: 12px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;  /* Changed from Slate 500 */
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+/* Footer attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Footer attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ============================= */
+/* 📱 Responsive Tweaks */
+/* ============================= */
+
+/* For larger screens (desktop, ≥ 1440px) */
+@media (min-width: 1024px) {
+  .card {
+    max-width: 360px; /* Slightly bigger card on desktop */
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 1.35rem; /* Bigger heading */
+  }
+
+    .subtitle {
+      font-size: 16px;
+    }
+  }
